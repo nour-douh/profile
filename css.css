@@ -440,3 +440,19 @@ section{
         width: 250px;
     }
 }
+
+@media (max-width: 400px) {
+    section{
+        width: 100%;
+        height: 1600px;
+    }
+
+
+    .home .home-bordar .bordar-img {
+        margin-left: 50px;
+    }
+    .icons ul{
+        margin-left: 20px;
+    }
+     
+}
