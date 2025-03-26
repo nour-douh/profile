@@ -194,7 +194,7 @@ section{
         margin-top:130px ;
         width: 300px;
         height: 300px;
-        margin-right: 150px;
+        margin-right: 50px;
     }
 
     .home .bordar-img img {
@@ -203,7 +203,20 @@ section{
      
 }
 
+@media (max-width: 300px) {
+    .home .home-bordar .bordar-img {
+        width: 200px;
+        height: 200px;
+    }
 
+    .home .bordar-img img {
+        width: 220px;
+    }
+    .icons ul{
+        margin-left: 20px;
+    }
+     
+}
 
 @media (max-width: 485px) {
     section{
